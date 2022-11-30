@@ -1,0 +1,458 @@
+body {
+   background-image: url(.././img/background-top.png);
+   background-color: #EEEEF7;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+   height: 815px;
+   width: 100%;
+   background-position: center;
+   background-size: 100%;
+}
+
+.container {
+   max-width: 1180px;
+   margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   padding: 0;
+}
+
+li, ul, a {
+   text-decoration: none;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+p, small, span {
+   padding: 0;
+   margin: 0;
+}
+
+.header {
+   height: 40px;
+}
+
+.header-navbar {
+   display: flex;
+}
+
+.header-navbar ul {
+   display: flex;
+   gap: 35px;
+   margin-top: 50px;
+   padding-top: 20px;
+}
+
+.header-navbar li {
+   font-size: 16px;
+   line-height: 19px;
+   color: #8794BA;
+}
+
+.header-navbar li:hover {
+   color: #fff;
+   transition: 1s;
+}
+
+.logo-header {
+   margin-top: 50px;
+   margin-right: 130px;
+}
+
+.right-navbar {
+   margin-left: 245px;
+   display: flex;
+   flex-direction: row;
+   max-width: 250px;
+}
+
+.right-navbar a:hover {
+   color: #f7338b;
+   transition: 1s;
+}
+
+.btn-nav  {
+   margin-left: 40px;
+   margin-top: 60px;
+   width: 160px;
+   height: 40px;
+   border: 1px solid #465B95;
+   border-radius: 68px;
+   background-color: #172755;
+   text-align: center;
+   font-size: 16px;
+   line-height: 19px;
+   color: #8794BA;
+}
+
+.btn-nav:hover {
+   border: none;
+   background-color: #EF2A82;
+   transition: 1s;
+   color: #fff;
+}
+
+.btn-nav:active, .btn-nav:focus {
+   outline: none;
+ }
+ .btn-nav::-moz-focus-inner {
+   border: 0;
+ }
+
+.right-navbar a {
+   margin-top: 70px;
+   width: 50px;
+   height: 19px;
+   font-size: 16px;
+   color: #8794BA;
+}
+
+.main {
+   margin-top: 150px;
+}
+
+.main .container {
+   display: flex;
+}
+
+.main img {
+   margin-left: 100px;
+}
+
+.main-text {
+   max-width: 550px;
+   height: 315px;
+   padding-top: 100px;
+}
+
+.header-title {
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 120%;
+   color: #FFFFFF;
+   height: 120px;
+   width: 550px;
+   padding-bottom: 15px;
+}
+
+.header-subtitle {
+   font-size: 18px;
+   line-height: 150%;
+   color: #8794BA;
+   order: 1;
+   padding-bottom: 50px;  
+}
+
+.text-btn {
+   width: 240px;
+   height: 50px;
+   background: #df146f;
+   border-radius: 68px;
+   border: none;
+   font-size: 16px;
+   color: #fff;
+}
+
+.text-btn:hover {
+   background: #EF2A82;
+   width: 245px;
+   height: 55px;
+   transition: 1s;
+}
+
+.text-btn:active, .text-btn:focus {
+   outline: none;
+ }
+ .text-btn::-moz-focus-inner {
+   border: 0;
+ }
+
+.features {
+   margin-top: 76px;
+   padding-bottom: 130px;
+   padding-top: 30px;
+   background-color: #EEEEF7;
+}
+
+.features h2 {
+   text-align: center;
+   margin-top: 30px;
+   font-weight: 700;
+   font-size: 40px;
+   color: #172755;
+   margin-bottom: 30px;
+}
+
+.features p {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   text-align: center;
+   color: #8794BA;
+}
+
+.features-cards {
+   margin-top: 80px;
+   display: flex;
+   gap: 25px;
+}
+
+.featur-card {
+   width: 380px;
+}
+
+.featur-card img {
+   padding-left: 160px;
+   margin-bottom: 25px;
+}
+
+.featur-card h3 {
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 19px;
+   text-align: center;
+   color: #172755;
+}
+
+.featur-card p {
+   margin-top: 15px;
+   font-size: 16px;
+   line-height: 140%;
+   text-align: center;
+   color: #8794BA;
+}
+
+.screenshots {
+   background-color: #EEEEF7;
+}
+
+
+
+.screens {
+   padding-bottom: 115px;
+}
+
+.screen {
+   display: flex;
+   gap: 100px;
+}
+
+.screen img {
+   width: 600px;
+   height: 410px;
+   left: 0px;
+   top: 0px;
+   box-shadow: 0px 18px 50px -15px rgba(255, 255, 255, 0.2);
+   border-radius: 30px;
+}
+
+.screen-text {
+   margin-top: 100px;
+   max-width: 480px;
+}
+
+.screen-title {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 47px;
+   color: #172755;
+   padding-bottom: 30px;
+}
+
+.screen-subtitle {
+   font-size: 16px;
+   line-height: 150%;
+   color: #8794BA;
+   flex: none;
+   order: 1;
+}
+
+.footer {
+   padding-top: 230px;
+   background-image: url(.././img/background-bottom.png);
+   background-color: #EEEEF7;
+   height: 1225px;
+   width: 100%;
+   background-size: 100%;
+   background-position: center;
+}
+
+.plans {
+   margin-bottom: 100px;
+}
+
+.plans-title {
+   margin-top: 270px;
+}
+
+.plans-title h2 {
+   font-weight: 700;
+   font-size: 40px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-bottom: 30px;
+}
+
+.plans-title p {
+   font-size: 18px;
+   line-height: 150%;
+   text-align: center;
+   color: #8794BA;
+}
+
+.plans-cards {
+   display: flex;
+   gap: 80px;
+   margin-top: 80px;
+}
+
+.plan-card {
+   background: #0F1F4B;
+   box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+   border-radius: 30px;
+   width: 340px;
+   height: 440px;
+   text-align: center;
+}
+
+.title-top {
+   max-width: 220px;
+   height: 110px;
+   border-bottom: 1px solid #2A407C;
+   padding-top: 50px;
+   margin-left: 60px;
+}
+
+.title-top h3 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 35px;
+   color: #fff;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+span {
+   font-size: 18px;
+   color: #8794BA;
+}
+
+.title-bottom {
+   margin-top: 50px;
+}
+
+.title-bottom h3 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 35px;
+   color: #fff;
+   margin-bottom: 15px;
+   text-align: center;
+}
+
+small {
+   font-size: 30px;
+}
+
+.plans-btn {
+   width: 200px;
+   height: 50px;
+   border: 1px solid #2A407C;
+   border-radius: 68px;
+   background-color: #0F1F4B;
+   margin-top: 40px;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF;
+}
+
+
+.plan-card:hover {
+   width: 360px;
+   height: 460px;
+   background: #FFFFFF;
+   transition: 2s;
+}
+
+.plan-card:hover .title-top {
+   border-bottom: 1px solid #D3D9E9;
+   transition: 2s;
+}
+
+small:hover {
+   color: #8794BA;
+   transition: 2s;
+}
+
+.plan-card:hover .title-top h3 {
+   color: #172755;
+   transition: 2s;
+}
+
+.plan-card:hover .title-bottom h3 {
+   color: #172755;
+   transition: 2s;
+}
+
+span:hover {
+   color: #172755;
+   transition: 2s;
+}
+
+.plan-card:hover .plans-btn {
+   background: #EF2A82;
+   transition: 2s;
+   border: none;
+}
+
+.plans-btn:active, .plans-btn:focus {
+   outline: none;
+ }
+ .plans-btn::-moz-focus-inner {
+   border: 0;
+ }
+
+.footer-bottom {
+   height: 95px;
+}
+
+.footer-navbar {
+   display: flex;
+   padding-top: 67px;
+   border-top: 1px solid #2A407C;
+}
+.footer-navbar ul {
+   display: flex;
+   gap: 35px;
+}
+
+.footer-navbar li {
+   font-size: 14px;
+   line-height: 19px;
+   color: #8794BA;
+   padding-top: 5px;
+}
+
+.footer-navbar li:hover {
+   color: #fff;
+   transition: 1s;
+}
+
+.logo-footer {
+   margin-right: 305px;
+}
+
+.right-footer {
+   margin-left: 245px;
+   display: flex;
+   flex-direction: row;
+   max-width: 250px;
+   gap: 40px;
+}
